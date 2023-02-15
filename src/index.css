@@ -1,0 +1,8 @@
+@font-face {
+  font-family: "cas";
+  src: url(./assets/fonts/Caslon/F37Caslon-RegularText.otf);
+  /* src: url(./assets/fonts/Gotham-font-family-www.Dfonts.org/Gotham/Gotham-Medium.otf); */
+}
+*{
+  font-family: "cas";
+}
