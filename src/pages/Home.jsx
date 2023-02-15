@@ -3,6 +3,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import Navbar from "../componets/Navbar";
 
+
 function Home() {
   return (
     <div className="relative w-full h-full">
@@ -14,7 +15,7 @@ function Home() {
       {/* what you will see */}
       <div className="flex flex-row  items-center pl-[70px] w-full">
         <div className="info w-full">
-          <h3 className="text-[1.5rem] pb-[2rem]">Hiring made Easy</h3>
+          <h3 className="text-[1.5rem] pb-[2rem]"> <Iconify-icon icon="emojione:party-popper" ></Iconify-icon> Hiring made Easy</h3>
           <h1 className="text-[4rem] capitalize  ">Easy, simple, Recruitment Process</h1>
           <p className="text-[16px] pt-[2rem] text-fontcolor">The clowns had taken over, And yes, They were literally clowns</p>
 
