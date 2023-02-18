@@ -9,7 +9,15 @@ import { Link } from 'react-router-dom'
 // import Signin from '../pages/Signin'
 
 function Navbar() {
+
+  const linkStyling = {
+    styling:" h-[25px] hover:border-b  linear duration-500 hover:border-nicegreen"
+  }
+
+  
+  
   return (
+
     <div className='flex justify-between mr-[100px] mt-[30px] ml-[70px]  bg-transparent'>
       <div className='flex flex-row justify-between gap-[100px] align-center text-[16px] bg-blue-300 '>
 
@@ -18,7 +26,7 @@ function Navbar() {
 
         <div className='flex justify-between gap-[26px] bg-yellow-200'>
 
-        <Link to="/freelance ">Freelance</Link>
+        <Link to="/freelance " className={linkStyling.styling}>Freelance</Link>
 
         <Link to="hiringmanagers">Hiring Managers</Link>
         <Link to="aboutus">About us</Link>

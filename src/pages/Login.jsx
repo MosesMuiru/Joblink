@@ -51,7 +51,7 @@ function Login() {
 
               <p className=' line p-4 mt-3 pl-[100px]  text-[1.1rem]'>OR</p>
 
-              <a href="#" className='mt-9 pt-2 pb-2 p-4 border border-gray-400 w-[200px] h-[3rem] text-center duration-300 ease-linear hover:bg-gray-300 capitalize rounded-sm  text-[1.2rem] ' >Sign up with google.</a>
+              <a href="#" className='mt-9 pt-2 pb-2 p-4 border border-gray-400 w-[200px] h-[3rem] text-center duration-300 ease-linear  capitalize rounded-sm  text-[1.2rem]  hover:bg-nicegreen hover:text-nicewhite' >Sign up with google.</a>
 
             </form>
         </div>
