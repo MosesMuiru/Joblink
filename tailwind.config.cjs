@@ -9,7 +9,8 @@ module.exports = {
       "nicegreen":" #219653",
       "nicewhite":"#fff",
       "fontcolor":"#828282",
-      "nicergreen":"#27AE60"
+      "nicergreen":"#27AE60",
+      "dark":"#000"
     },
     extend: {},
   },
